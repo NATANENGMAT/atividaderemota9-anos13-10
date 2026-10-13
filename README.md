@@ -1,13 +1,7 @@
 # Introdução à função do primeiro grau
 
-Professor Natanael · 9º1, 9º2 e 9º4.
+Professor Natanael. Prazo: 13/10/2026 às 23h de Manaus.
 
-Quatro exemplos animados e seis exercícios com fotos privadas no Supabase.
+GitHub Pages: main /docs. Painel: ?professor.
 
-Prazo: 13/10/2026, às 23h, America/Manaus.
-
-GitHub Pages: publicar branch main, pasta /docs.
-
-Painel do professor: acrescente ?professor ao endereço do site.
-
-A senha e as chaves administrativas não estão no código. Banco e Edge Function já configurados no Supabase. A lista dos alunos permanece no banco.
+Dados e fotos privadas no Supabase. Não contém senha ou chave administrativa.
