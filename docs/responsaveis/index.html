@@ -87,7 +87,7 @@
       ready=false;group.disabled=true;student.disabled=true;controls();el('retry').hidden=true;el('message').textContent='Carregando a lista de alunos…';
       try{
         const data=await request({action:'roster'});roster=data.students;ready=true;group.disabled=false;el('message').textContent='';
-        el('deadline').textContent='Prazo da atividade: '+date(data.deadline)+' · horário de Manaus.';
+        el('deadline').textContent=data.deadline==='infinity'?'Atividade aberta, sem prazo final.':'Prazo da atividade: '+date(data.deadline)+' · horário de Manaus.';
         populateNames();
       }catch{el('message').textContent='Não foi possível carregar a lista. Verifique sua conexão e tente novamente.';el('retry').hidden=false;}
       controls();
